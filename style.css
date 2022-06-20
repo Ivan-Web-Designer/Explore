@@ -1,0 +1,704 @@
+body{
+	margin: 0px;
+	width: 100%;
+}
+.Container{
+	position: relative;
+	width: 100%;
+	height: 1797px;
+	background: #FFFFFF;
+}
+.header{
+	position: absolute;
+	width: 68.75%;
+	height: 56px;
+	left: 15.625%;
+	top: 17px;
+	z-index: 1;
+}
+.logo{
+	position: absolute;
+	width: 10.075%;
+	height: 48px;
+	left: 0%;
+	top: 4px;
+	z-index: 1;
+}
+.Explore{
+	position: absolute;
+	width: 100%;
+	height: 48px;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	z-index: 1;
+}
+.menu{
+	position: absolute;
+	width: 5.681%;
+	height: 24px;
+	left: 35.303%;
+	top: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+.Tou{left: 41.590%;}
+.Hot{left: 47.877%;}
+.Gal{left: 53.164%;}
+.Pag{left: 59.451%;}
+.Blo{left: 65.738%;}
+.Con{left: 71.025%;}
+.Log{left: 79.312%;}
+.SignUp{
+	width: 12.121%;
+	height: 56px;
+	left: 87.878%;
+	top: 0px;
+	z-index: 1;
+}
+.Sign_Up{
+	width: 60.000%;
+	height: 24px;
+	left: 20.000%;
+	top: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #1F3347;
+}
+.All{
+	position: absolute;
+	width: 100%;
+	height: 1671px;
+	left: 0%;
+	top: 0px;
+}
+.banner{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	left: 0%;
+	top: 0px;
+	/*background: url(BG.jpg); 
+	background-repeat: no-repeat;*/
+}
+.banner_1{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.content{
+	position: absolute;
+	width: 29.322%;
+	height: 428px;
+	left: 15.625%;
+	top: 187px;
+}
+h1{
+	position: absolute;
+	width: 86.678%;
+	height: 228px;
+	left: 0%;
+	top: 0px;
+	margin: 0px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 119%;
+	color: #FFFFFF;
+}
+.text{
+	width: 100%;
+	height: 90px;
+	top: 245px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 188%;
+}
+.text_1{
+	width: 99.238%;
+	height: 72px;
+	top: 152px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #9DA1B4;
+}
+ul{
+	padding: 0%;
+	margin: 0%;
+}
+.text_2{
+	width: 94.447%;
+	height: 36px;
+	left: 5.523%;
+	top: -9px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	color: #9DA1B4;
+	list-style-image: url(marker.png);
+}
+.box{
+	position: absolute;
+	width: 60.390%;
+	height: 56px;
+	top: 372px;
+}
+button{
+	position: absolute;
+	width: 47.058%;
+	height: 56px;
+	padding: 0px;
+	border: 0px;
+	border-radius: 4px;
+	background-color: #FFC814;
+}
+.read{
+	left: 52.941%;
+	background-color: #FFFFFF;
+}
+.text_3{
+	width: 77.500%;
+	height: 24px;
+	left: 11.250%;
+	top: 16px;
+	font-weight: 600;
+	font-size: 16px; /*12px для ноутбука*/
+	line-height: 24px;
+	color: #22283C;
+}
+.about{
+	position: absolute;
+	width: 82.5%;
+	height: 699px;
+	left: 14.583%;
+	top: 972px;
+}
+.Content{
+	position: absolute;
+	width: 33.143%;
+	height: 569px;
+	left: 49.947%;
+	top: 125px;
+	z-index: 1;
+}
+.About{
+	width: 17.333%;
+	height: 16px;
+}
+.World{
+	position: absolute;
+	width: 91.238%;
+	height: 97px;
+	top: 26px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 113%;
+	text-transform: capitalize;
+	color: #1F3347;
+}
+.Check{top: 261px;}
+.check{
+	position: absolute;
+	width: 94.476%;
+	height: 108px;
+	top: 252px;
+}
+.funfact{
+	position: absolute;
+	width: 94.095%;
+	height: 80px;
+	top: 383px;
+	display: flex;
+	flex-direction: row;
+}
+.title__one{
+	width: 13.5%;
+	height: 28px;
+	font-size: 36px;
+	line-height: 78%;
+	color: #FFC814;
+}
+.title__two{
+	width: 18.4%;
+	height: 28px;
+	left: 37.044%;
+	font-size: 36px;
+	line-height: 78%;
+	color: #FFC814;
+}
+.title__three{
+	width: 20.4%;
+	height: 28px;
+	left: 78.947%;
+	font-size: 36px;
+	line-height: 78%;
+	color: #FFC814;
+}
+.text__one{
+	width: 17.813%;
+	height: 45px;
+	top: 35px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #9DA1B4;
+}
+.text__two{
+	width: 20.445%;
+	height: 42px;
+	left: 37.044%;
+	top: 35px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #9DA1B4;
+}
+.text__three{
+	width: 18.016%;
+	height: 42px;
+	left: 78.947%;
+	top: 35px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #9DA1B4;
+}
+.Readmore{
+	top: 513px;
+	background: #FFC814;
+}
+.text_Readmore{
+	width: 51.25%;
+	height: 20px;
+	left: 24.375%;
+	top: 18px;
+	font-family: 'Circular Std';
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 20px;
+	color: #1F3347;
+}
+.box_box{
+	position: absolute;
+	width: 36.426%;
+	height: 579px;
+	top: 120px;
+	display: flex;
+	flex-direction: column; 
+	z-index: 1;
+}
+.box_boximgone{
+	position: relative;
+	width: 71.057%;
+	height: 520px;
+}
+.boximgone{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	left: 0px;
+	filter: drop-shadow(0px 6px 24px #E4E2EE);
+	border-radius: 14px;
+}
+.boximgtwo{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 51.25%;
+	left: 65%;
+	filter: drop-shadow(0px 6px 24px #E4E2EE);
+	border-radius: 14px;
+}
+.Booking{
+	position: absolute;
+	width: 68.75%;
+	height: 207px;
+	left: 15.572%;
+	top: 789px;
+}
+.Z{
+	position: relative;
+	width: 9.090%;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	background: #FFFFFF;
+}
+.Hotel{background: #FFC814;}
+.Flight{left: 9.848%;}
+.Car{left: 19.696%;}
+.title{
+	color: #1F3347;
+	height: 24px;
+	top: 11px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	left: 41.666%;
+}
+.Ship{left: 29.544%;}
+.hotel{width: 35.833%;}
+.flight{width: 38.333%;}
+.car{width: 25.000%;}
+.ship{width: 30.000%;}
+.A{
+	position: absolute;
+	width: 25.000%;
+	height: auto;
+	left: 8.333%;
+	top: 8px;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	height: 162px;
+	top: 45px;
+	background: #FFFFFF;
+	box-shadow: 0px 6px 24px #E4E2EE;
+}
+.tex{
+	position: absolute;
+	width: 95.454%;
+	height: 87px;
+	left: 2.273%;
+	top: 38px;
+}
+.row{
+	position: absolute;
+	width: 13.492%;
+	height: 87px;
+	top: 0px;
+}
+.One{left: 0%;}
+.Two{left: 17.778%;}
+.Three{left: 35.556%;}
+.Four{left: 53.334%;}
+.Five{left: 71.12%;}
+.bg{
+	position: absolute;
+	width: 100%;
+	height: 56px;
+	top: 31px;
+	background: #FFFFFF;
+	box-shadow: 0px 6px 24px #E4E2EE;
+	border-radius: 4px;
+}
+.P{
+	width: 79.411%;
+	height: 24px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1F3347;
+}
+.Q{
+	position: absolute;
+	width: 41.764%;
+	height: 15px;
+	left: 5.882%;
+	top: 51px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 15px;
+	color: #70717B;
+	z-index: 1;
+}
+.Get_Tic{
+	width: 12.698%;
+	height: 56px;
+	left: 87.301%;
+	top: 31px;
+	box-shadow: 0px 6px 24px rgba(255, 200, 20, 0.4);
+}
+.text_4{
+	width: 50.625%;
+	height: 24px;
+	left: 25.000%;
+	top: 16px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #22283C;
+}
+.travel{
+	width: 87.752%;
+	height: 310px;
+	font-weight: 600;
+	font-size: 430px;
+	line-height: 70%;
+	color: rgba(244, 246, 250, 0.8);
+	z-index: 0;
+}
+.box_palma{
+	position: relative;
+	width: 22.159%;
+	height: 442px;
+	left: 77.841%;
+	top: 36.766%;
+}
+.palma{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+@media (max-width: 1715px){
+	.Container, .All{height: 1550px;}
+	.content{top: 175px;}
+	.text_content{font-size: 58px;}
+	.text{top: 210px;}
+	.box{top: 325px;}
+	.text_3{width: 90.000%;left:5.000%;}
+	.Booking{top: 650px;}
+	.text_2{font-size: 15px;}
+	.text_4{width: 60.000%;left: 20.000%;}
+	.about{top: 800px;}
+	.World{width: 100%;}
+}
+@media (max-width: 1600px){
+	.Container, .All{height: 1500px;}
+	.content{top: 165px;}
+	.text_content{font-size: 48px;}
+	.text{top: 165px;}
+	.box{top: 300px;}
+	.Booking{top: 600px;}
+	.text_2{width: 100%;}
+	.about{top: 775px;}
+	.P{width: 100%;}
+	.Q{width: 100%;}
+	.boximgtwo{top:40%;}
+}
+@media (max-width: 1500px){
+	.Container, .All{height: 1500px;}
+	.Content{width: 50%;}
+	.text_3{font-size: 15px;}
+	.Booking{top: 575px;}
+	.text_4{width: 70.000%;left: 15.000%;}
+	.World{width: 100%;font-size: 34px;}
+	.boximgtwo{top:36%;}
+}
+@media (max-width: 1400px){
+	.Container, .All{height: 1450px;}
+	.box{top: 275px;}
+	.text_3{font-size: 14px;}
+	.Booking{top: 530px;}
+	.about{top: 700px;}
+	.P{width: 125%;font-size: 16px;line-height: 16px;}
+	.menu{left: 25.303%;}
+	.Tou{left: 32.590%;}
+	.Hot{left: 39.877%;}
+	.Gal{left: 47.164%;}
+	.Pag{left: 56.451%;}
+	.Blo{left: 63.738%;}
+	.Con{left: 70.025%;}
+	.Log{left: 79.312%;}
+	.boximgtwo{top:34%;}
+	.travel{font-size: 400px;}
+}
+@media (max-width: 1300px){
+	.Container, .All{height: 1300px;}
+	.text_content{font-size: 44px;}
+	.text{top: 160px;}
+	.box{top: 265px;}
+	.text_3{font-size: 12px;}
+	.Booking{top: 475px;left: 10.000%;width: 80.000%;}
+	.text_4{width: 80.000%;left: 10.000%;}
+	.about{top: 600px;left: 10.000%;width: 80.000%;}
+	.content{left: 10.000%;width: 34.322%;top: 125px;}
+	.header{left: 10.000%;width: 80.000%;}
+	.World{font-size: 28px;}
+	.P{width: 125%;font-size: 16px;line-height: 16px;}
+	.text_1{top: 100px;}
+	.check{top: 210px;}
+	.funfact{top: 325px;}
+	.Readmore{top: 450px;}
+	.boximgtwo{top:30%;}
+	.travel{font-size: 320px;}
+}
+@media (max-width: 1200px){
+	.content{top: 100px;}
+	.text_content{font-size: 40px;}
+	.text{top: 150px;font-size: 14px;}
+	.box{top: 250px;width: 105.000%}
+	.text_3{width: 100.000%; left: 0%;}
+	.Booking{top: 425px;}
+	.World{font-size: 26px;}
+	.A{display: none;}
+	.title{left: 25.000%;}
+	.text_Readmore{width: 60.000%;left: 20.000%;}
+	.header{top:0px;}
+	.boximgtwo{top:28%;}
+	.travel{font-size: 320px;}
+}
+@media (max-width: 1100px){
+	.Container, .All{height: 1200px;}
+	.about{height: 600px;left:}
+	.World{font-size: 24px;}
+	.text_1{font-size: 14px;}
+	.Sign_Up{width: 80.000%;left: 10.000%;}
+	.SignUp{height: 40px;}
+	.Sign_Up{top:8px;}
+	.boximgtwo{top:26%;}
+	.travel{font-size: 290px;}
+}
+@media (max-width: 1000px){
+	.text_content{font-size: 34px;}
+	.text{top: 75px;}
+	.box{top: 155px;width: 80.000%}
+	.Booking{top: 375px;left: 5.000%;width: 90.000%;}
+	.text_2{font-size: 15px;}
+	.about{top: 550px;left: 5.000%;width: 90.000%;}
+	.text_Readmore{width: 80.000%;left: 10.000%;}
+	.content{left: 5.000%;width: 40.000%;}
+	.header{left: 5.000%;width: 90.000%;}
+	.boximgtwo{top:24%;}
+}
+@media (max-width: 900px){
+	.Container, .All{height: 1000px;}
+	.content{top: 65px;}
+	.text_content{font-size: 30px;}
+	.Booking{top: 325px;}
+	.text_2{font-size: 13px;}
+	.text_4{width: 90.000%;left: 5.000%;}
+	.about{top: 450px;}
+	.Explore{font-size: 24px;}
+	.menu{font-size: 12px;}
+	.boximgtwo{top:22%;}
+	.travel{font-size: 260px;}
+}
+@media (max-width: 800px){
+	.Explore{font-size: 18px;line-height: 18px}
+	.menu{font-size: 10px;line-height: 10px;top: 5px;}
+	.SignUp{height: 30px;}
+	.Sign_Up{top:3px;}
+	.text_content{font-size: 26px;}
+	.text{top: 60px;font-size: 8px;}
+	.box{top: 100px;}
+	.get, .read{height: 36px;}
+	.text_3{top:6px;}
+	.Booking{top:250px; height: 207px;}
+	.title{left: 15%;}
+	.text_4{font-size: 14px;}
+	.text_2{font-size: 12px;}
+	.about{top: 475px;}
+	.Content{width: 80%;top: 145%;left: 10%;}
+	.box_box{width: 90%;top: 25%;}
+	.boximgtwo{top:55%;}
+	.text_1{width: 90%;}
+	.Readmore{width: 50%;left: 25%;}
+	.World{font-size: 36px;}
+	.text_1, .text_2{font-size: 20px;}
+	.travel{font-size: 230px;}
+}
+@media (max-width: 700px){
+	.text_content{font-size: 22px;}
+	.text{font-size: 7px;}
+	.Content{width: 90%;top: 120%;left: 10%;}
+	.box_box{width: 90%;top: 25%;}
+	.text_1{width: 90%;font-size: 18px;}
+	.Readmore{width: 50%;left: 25%;}
+	.World{font-size: 36px;}
+	.text_2{font-size: 18px;}
+	.menu{left: 15.303%;}
+	.Tou{left: 22.590%;}
+	.Hot{left: 29.877%;}
+	.Gal{left: 37.164%;}
+	.Pag{left: 46.451%;}
+	.Blo{left: 53.738%;}
+	.Con{left: 60.025%;}
+	.Log{left: 69.312%;}
+	.SignUp{width: 15%;left: 84%;}
+	.get, .read{height: 24px;}
+	.text_3{line-height: 18px;top: 3px;}
+	.Booking{top:200px;}
+	.about{top: 425px;}
+	.text_4{font-size: 11px;}
+	.boximgtwo{top:40%;}
+	.travel{font-size: 200px;}
+}
+@media (max-width: 600px){
+	.content{top: 50px;}
+	.text_content{font-size: 18px;}
+	.Sign_Up, .Q{font-size: 14px;}
+	.text_3{font-size: 10px;}
+	.Booking{top:180px;}
+	.P, .title{font-size: 12px;}
+	.Content{top: 105%;}
+	.text_1{top: 110px;}
+	.text_1, .text_2{font-size: 15px;}
+	.boximgtwo{top:34%;}
+	.travel{font-size: 160px;}
+	.about{top:390px;}
+	.box_box{top: 20%;}
+	.box_palma{top:26%;}
+}
+@media (max-width: 500px){
+	.Explore{font-size: 12px;}
+	.menu{font-size: 8px;top:8px;}
+	.Sign_Up{font-size: 12px;}
+	.content{top: 35px;}
+	.text_content{font-size: 15px;}
+	.text{top: 35px;}
+	.box{top:75px;}
+	.text_3{font-size: 8px}
+	.Z{height: 14.999%;}
+	.title{top: 11.5%;}
+	.container{top: 11.5%;height: 57.000%}
+	.tex{top:26px;height: 49%}
+	.bg{height: 38px;}
+	.Q{top:43px;font-size: 10px;}
+	.P{font-size: 10px;}
+	.Get_Tic{height: 38px;}
+	.text_4{font-size: 9px;width: 100%;left: 0%;top:7px;}
+	.Booking{top:150px;}
+	.about{top:300px;}
+	.boximgtwo{top:28%;}
+	.Content{top:85%;}
+	.World{font-size: 26px;}
+	.text_1, .text_2{font-size: 12px;}
+	.title__two, .text__two{left: 27.044%;}
+	.title__three, .text__three{left: 58.947%;}
+	.title{font-size: 10px;top:3%;}
+	.travel{font-size: 130px;}
+	.about{top:300px;}
+	.box_box{top: 15%;}
+	.box_palma{top:20%;}
+}
+@media (max-width: 400px){
+	.Explore{font-size: 10px;}
+	.menu{font-size: 6px;}
+	.Sign_Up{width: 90%;left: 5%;font-size: 10px;}
+	.content{top: 25px;}
+	.text_content{font-size: 11px;}
+	.text{top: 25px;font-size: 5px;}
+	.box{top:55px;}
+	.get, .read{height: 18px;}
+	.text_3{height: 18px;top:0px;font-size: 6px;}
+	.Booking{top:110px;}
+	.title{font-size: 8px;}
+	.text_4{font-size: 7px;}
+	.Q{font-size: 9px;}
+	.about{top:250px;}
+	.Content{top:65%;}
+	.boximgtwo{top:21%;}
+	.World{font-size: 20px;}
+	.text_1{font-size: 8px;top:75px;}
+	.text_2{font-size: 8px;}
+	.check{top:120px;}
+	.funfact{top: 225px;}
+	.Readmore{top:325px;}
+	.text__one, .text__two, .text__three{font-size: 12px;}
+	.travel{font-size: 100px;}
+	.about{top:260px;}
+	.box_box{top: 11%;}
+	.box_palma{top:15%;}
+}
+
+
